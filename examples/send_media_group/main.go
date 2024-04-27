@@ -7,8 +7,8 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/go-telegram/bot"
-	"github.com/go-telegram/bot/models"
+	"github.com/0azis/bot"
+	"github.com/0azis/bot/models"
 )
 
 // Send any text message to the bot after the bot has been started

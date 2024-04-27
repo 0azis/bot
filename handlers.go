@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/go-telegram/bot/models"
+	"github.com/0azis/bot/models"
 )
 
 type HandlerType int
