@@ -109,7 +109,7 @@ func (b *Bot) StartWebhook(ctx context.Context) {
 }
 
 func (b *Bot) SetDefaultHandler(defaultHandler HandlerFunc) {
-	b.defaultHandler = defaultHandler
+	b.defaultHandlerFunc = defaultHandler
 }
 
 // Start the bot
