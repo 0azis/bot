@@ -108,6 +108,10 @@ func (b *Bot) StartWebhook(ctx context.Context) {
 	wg.Wait()
 }
 
+func (b *Bot) SetDefaultHandler(defaultHandler HandlerFunc) {
+	b.defaultHandler = defaultHandler
+}
+
 // Start the bot
 func (b *Bot) Start(ctx context.Context) {
 	wg := &sync.WaitGroup{}
